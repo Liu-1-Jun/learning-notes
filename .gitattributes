@@ -1,0 +1,5 @@
+# 统一换行符，避免 Windows 上 Git 自动把 LF 转成 CRLF 造成整篇 diff 抖动
+* text=auto eol=lf
+
+# 备份/编辑器配置目录按二进制处理（实际已被 .gitignore 排除）
+.obsidian/** -text
